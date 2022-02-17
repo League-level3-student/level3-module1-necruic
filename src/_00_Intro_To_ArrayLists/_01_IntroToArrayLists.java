@@ -16,16 +16,18 @@ public class _01_IntroToArrayLists {
 			System.out.println(strings[i]); 
 		}
         // 4. Print all the Strings using a for-each loop
-    	for (type var: string) {
-    		System.out.println(var[i]);
+    	for (type var: String) {
+    		System.out.println(strings[i]);
     	}
         // 5. Print only the even numbered elements in the list.
-    	for (int i=0; i < strings.length; i++2) {
+    	for (int i = 0; i < strings.length; i++2) {
     		System.out.println();
     	}
         // 6. Print all the Strings in reverse order.
-    		
+    	for (int i = strings.length; i i > 0; i--)	{
+    		System.out.println();
+    	}
         // 7. Print only the Strings that have the letter 'e' in them.
-        
+        // check if each string contains the substring e	
     }
 }
