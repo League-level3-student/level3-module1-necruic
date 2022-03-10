@@ -43,7 +43,7 @@ public class _02_GuestBook implements ActionListener {
 			JOptionPane.showInputDialog("Enter a name.");
 		}
 		if(arg0.getSource()==button2) {
-			JOptionPane.showMessageDialog(null, );
+			JOptionPane.showMessageDialog(null, names);
 		}
 	}
 
