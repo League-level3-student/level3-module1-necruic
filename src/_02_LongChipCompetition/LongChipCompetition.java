@@ -17,7 +17,7 @@ public class LongChipCompetition {
         LongChipCompetition lcc = new LongChipCompetition();
 
     }
-
+    private void LongChipCompetition
     private void initializeBeatles() {
         Beatle george = new Beatle("George");
         Beatle john = new Beatle("John");
