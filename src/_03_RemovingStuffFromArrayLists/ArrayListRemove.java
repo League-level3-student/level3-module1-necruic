@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class ArrayListRemove {
 
+	public static void main(String[] args) {
+	yard stuffIFoundInTheYard = new yard();
+	}
     class Stuff {
         public String type;
     }
@@ -18,12 +21,16 @@ public class ArrayListRemove {
         public Dirt() {
             type = "dirt";
         }
-    }
-
+    }	
+    
     // 1. Write a method that removes the dirt in the yard and returns the
     //    ArrayList
     public static ArrayList<Stuff> cleanOutTheYard( ArrayList<Stuff> yard ) {
-        
+        for (int i = 0; i < stuffIFoundInTheYard.length; i++) {
+			if(stuffIFoundInTheYard == dirt) {
+				
+			}
+		}
         return yard;
     }
     
