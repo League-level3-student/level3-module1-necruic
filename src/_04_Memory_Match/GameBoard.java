@@ -12,6 +12,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
+import _01_MurderOfCrows.Crow;
+
 public class GameBoard extends JFrame implements ActionListener {
     private static final long serialVersionUID = 1L;
     static Card firstSelectedCard = null;
@@ -42,7 +44,8 @@ public class GameBoard extends JFrame implements ActionListener {
         }
         
         // 2. Initialize the ArrayList of Cards declared above
-        
+        ArrayList<Card> cards = new ArrayList<Card>();
+
         
         // 3. Create TOTAL_CARDS number of objects each with a value of 1.
         //    Also, add action listeners to each Card object and then add each

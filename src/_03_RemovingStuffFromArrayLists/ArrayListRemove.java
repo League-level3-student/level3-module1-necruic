@@ -4,9 +4,13 @@ import java.util.ArrayList;
 
 public class ArrayListRemove {
 
-	public static void main(String[] args) {
-	yard stuffIFoundInTheYard = new yard();
-	}
+	
+
+}
+
+	
+
+	
     class Stuff {
         public String type;
     }
@@ -21,23 +25,25 @@ public class ArrayListRemove {
         public Dirt() {
             type = "dirt";
         }
-    }	
+    	
+    
     
     // 1. Write a method that removes the dirt in the yard and returns the
     //    ArrayList
-    public static ArrayList<Stuff> cleanOutTheYard( ArrayList<Stuff> yard ) {
-        for (int i = 0; i < stuffIFoundInTheYard.length; i++) {
-			if(stuffIFoundInTheYard == dirt) {
-				
-			}
-		}
-        return yard;
+    public static ArrayList<Stuff> cleanOutTheYard( ArrayList<Stuff> stuffIFoundInTheYard ) {
+//    	for(int i = 0; i < yard.size(); i++){
+//            Stuff stuff = yard.get(i);
+//            if(stuff == Dirt) {
+//            	remove
+//        }
+    	stuffIFoundInTheYard.remove("dirt");
+        return stuffIFoundInTheYard;
     }
     
     // 2. Write a method that removes the hash tag ('#') characters from the
     //    ArrayList and returns it
-    public static ArrayList<Character> removeHashTags(ArrayList<Character> list) {
-
-        return list;
+    public static ArrayList<Character> removeHashTags(ArrayList<Character> truth) {
+    	truth.remove("#");
+        return truth;
     }
 }
